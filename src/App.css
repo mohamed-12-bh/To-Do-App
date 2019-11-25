@@ -1,22 +1,42 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo-List{
+  background-color: cornflowerblue;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.complete{
+  text-decoration: line-through;
+}
+ 
+.title-todo{
+  font-family: 'Arial Narrow Bold', sans-serif;
+  color:white;
+  font-size: 50px;
+}
+.title{
+  color:white;
+  font-size: 20px;
+}
+ .btn-todo{
+  margin-top:20px;
+  margin-left:50%;
+  width: 80px;
+  height: 30px;
+  border-radius:5px;
+  background-color: cornflowerblue;
+ }
 
-.App-link {
-  color: #09d3ac;
-}
+.add-todo{
+  width: 100%;
+    margin-right: 100px;;
+border-radius:6px;
+height:30px;
+  }
+  .list{
+    
+    list-style-type: none;
+  }
+
